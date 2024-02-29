@@ -1,0 +1,409 @@
+.navbar{
+    padding:30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 400px;
+}
+.font-styling{
+    padding: 0px;
+}
+#a, #b {
+    width:15px
+}
+.nav-links{
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+.nav-links>*{
+    flex: 1 1 60px;
+}
+button{
+    width: 60px;
+    background:none;
+    border: none;
+    padding: 0%;
+    
+}
+.link{
+    font-size: 10px;
+}
+.flex2{
+    display: flex;
+    width:300px;
+}
+#search{
+    width: 40px;
+}
+#a{
+    border:1px solid #5183B8;
+}
+#b{
+    color: white;
+    background-color: #5183B8;
+    border: 1px solid #5183B8;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    border: 1px solid #FFD53D;
+}
+.main-hr{
+    border: 0.5px solid #5183B8;
+    width: 75vw;
+}
+.nav-list{
+    font-size: 10px;
+    width: 72vw;
+    padding-left: 180px;
+    display: flex;
+    justify-content: center;
+    column-gap: 7px;
+}
+.nav-list button{
+    font-size: 12px;
+    width:110px;
+}
+.one{
+    margin-top: 20px;
+    width:100%;
+    height: 250px;
+    background-color: #5183B8;
+}
+.one-position{
+    padding: 20px;
+    margin-left: 160px;
+}
+.page{
+    color: white;
+    font-size: smaller;
+}
+.text-heading{
+    font-size: 25px;
+    color: white;
+}
+.text-content{
+    margin-top: 10px;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Noto Sans';
+}
+.text-content-2{
+    font-family: 'Noto Sans';
+    padding: 20px;
+    margin-left: 160px;
+    width: 1100px;
+    color: black;
+    font-size: 15px;
+}
+.text-heading-2{
+    font-family: 'Noto Sans';
+    font-size: 35px;
+    padding: 20px;
+    margin-left: 155px;
+    color: black;
+}
+
+.bg-blue{
+    margin-top: 100px;
+    width: 100%;
+    height: 260px;
+    background-color: #5183B8;
+}
+
+.persons{
+    display: flex;
+    margin-top: -361px;
+    justify-content: space-around;
+    align-items: center;
+}
+.persons-details{
+    display: flex;
+    margin-top: -10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.person-detail{
+    text-align: center;
+}
+.name{
+    font-weight: bold;
+    font-family: 'Lato';
+}
+.developers{
+    margin-top: 100px;
+}
+.dev-2{
+    margin-top: 200px;
+}
+
+.person1 .coloured{
+    display: none;
+}
+.person1:hover .bw{
+    display:none
+}
+.person1:hover .coloured{
+    display: block;
+}
+.person2 .coloured{
+    display: none;
+}
+.person2:hover .bw{
+    display:none
+}
+.person2:hover .coloured{
+    display: block;
+}
+.person3 .coloured{
+    display: none;
+}
+.person3:hover .bw{
+    display:none
+}
+.person3:hover .coloured{
+    display: block;
+}
+.person4 .coloured{
+    display: none;
+}
+.person4:hover .bw{
+    display:none
+}
+.person4:hover .coloured{
+    display: block;
+}
+.person5 .coloured{
+    display: none;
+}
+.person5:hover .bw{
+    display:none
+}
+.person5:hover .coloured{
+    display: block;
+}
+.person6 .coloured{
+    display: none;
+}
+.person6:hover .bw{
+    display:none
+}
+.person6:hover .coloured{
+    display: block;
+}
+.person7 .coloured{
+    display: none;
+}
+.person7:hover .bw{
+    display:none
+}
+.person7:hover .coloured{
+    display: block;
+}
+.person8 .coloured{
+    display: none;
+}
+.person8:hover .bw{
+    display:none
+}
+.person8:hover .coloured{
+    display: block;
+}
+.person9 .coloured{
+    display: none;
+}
+.person9:hover .bw{
+    display:none
+}
+.person9:hover .coloured{
+    display: block;
+}
+
+.footerr{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+    font-weight: bold;
+}
+.explore a{
+    font-weight: lighter;
+}
+.quick-actions{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+    font-weight: bold;
+}
+.quick-actions a{
+    font-weight: lighter;
+}
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+    font-weight: bold;
+}
+.contact-details img{
+    width: 200px;
+}
+
+.phone{
+    max-width: 15px;
+}
+.message{
+    max-width: 15px;
+}
+.icon{
+    max-width: 25px;
+}
+.icons-footer{
+    margin-left: 5px;
+    width:150px;
+    display: flex;
+    column-gap: 8px;
+
+}
+.heart{
+    max-width: 15px;
+}
+.foot-hr{
+    margin-top: 10px;
+    width: 100%;
+    height: 20px;
+    background-color: #E7E7E7;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+}
+.foot-links{
+    width: 1100px;
+    display: flex;
+    column-gap: 20px;
+}
+.last-foot{
+    margin-top: -15px;
+    width: 100%;
+    height: 20px;
+    background-color: #232323;
+}
+.last-text{
+    margin-left: 60px;
+    font-size: small;
+    color: #EEEEEE;
+}
+
+         /* responsive */
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: left;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+section {
+    z-index: 2;
+    display: inline-block;
+    width: 60vw;
+    background-color: #8caaca ;
+    margin-top: 100px;
+    height: calc(100vh - 300px);
+    position: sticky;
+}
+
+@media (max-width: 1400px) {
+    section{
+        display: none;
+    }
+    .text-content-2{
+        width: 70vw;
+    }
+    .pageviews {
+        width: 300px;
+    }
+}
+@media (max-width: 1200px) {
+    .nav-list {
+        margin-left: -80px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 880px) {
+    
+    .text-content-2{
+        width: 500px;
+        height: 150px;
+    }
+    .one-position{
+        margin-left: 100px;
+    }
+    .text-content-2{
+        margin-left: 100px;
+        width: 60vw;
+    }
+    .text-heading-2{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .footerr{
+        margin-left: 100px;
+        width: 70vw;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+        row-gap: 4      0px;
+    }
+       
+    .bw ,.coloured{
+        width: 30vw;
+    }
+    .logo{
+        width: 60vw;
+    }
+    .checkbtn {
+        margin-top: 20px;
+        margin-right: 80px;
+        display: block;
+        color: #232323;
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav-links, #search{
+        display: none;
+    }
+    #check:checked~.nav-list {
+        z-index: 3;
+        display: block;
+        margin-left: -110px;
+        margin-top: -220px;
+        position: sticky;
+        font-size: larger;
+    }
+    #check:checked~.nav-list a{
+        font-size: 14px;
+    }
+    #check:checked~section{
+        display: block;
+        margin-top: 9px;
+        height: 250px;
+    }
+}
