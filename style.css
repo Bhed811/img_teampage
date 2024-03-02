@@ -122,6 +122,7 @@ hr{
     margin-top: -361px;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .persons-details{
     display: flex;
@@ -327,6 +328,20 @@ section {
     height: calc(100vh - 300px);
     position: sticky;
 }
+.footer-twocolumns{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+}
+.bluebg{
+    background: linear-gradient(to top,
+                white 0%,
+                white 1%,
+                #5183B8 1%,
+                #5183B8 72.5%,
+                white 72.5%,
+                white 100%);
+}
 
 @media (max-width: 1400px) {
     section{
@@ -369,12 +384,12 @@ section {
         flex-direction: column;
         justify-content: center;
         align-items: center;   
-        row-gap: 4      0px;
+        row-gap: 40px;
     }
        
-    .bw ,.coloured{
+    /* .bw ,.coloured{
         width: 30vw;
-    }
+    } */
     .logo{
         width: 60vw;
     }
@@ -405,5 +420,10 @@ section {
         display: block;
         margin-top: 9px;
         height: 250px;
+    }
+}
+@media(max-wdith:650px){
+    .bluebg{
+        display:block;
     }
 }
