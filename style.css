@@ -162,6 +162,61 @@ hr{
 .person2:hover .coloured{
     display: block;
 }
+.person2:hover .bluebg{
+    background: linear-gradient(to top,
+                white 0%,
+                white 1%,
+                #5183B8 1%,
+                #5183B8 76%,
+                white 76%,
+                white 100%);
+}
+.person3:hover .bluebg{
+    background: linear-gradient(to top,
+                white 0%,
+                white 1%,
+                #5183B8 1%,
+                #5183B8 76%,
+                white 76%,
+                white 100%);
+}
+.person5:hover .bluebg{
+    background: linear-gradient(to top,
+                white 0%,
+                white 0.5%,
+                #5183B8 0.5%,
+                #5183B8 67%,
+                white 67%,
+                white 100%);
+}
+.person6:hover .bluebg{
+    background: linear-gradient(to top,
+                white 0%,
+                white 0.5%,
+                #5183B8 0.5%,
+                #5183B8 70.5%,
+                white 70.5%,
+                white 100%);
+}
+.person8:hover .bluebg{
+    background: linear-gradient(to top,
+                white 0%,
+                white 0.5%,
+                #5183B8 0.5%,
+                #5183B8 67%,
+                white 67%,
+                white 100%);
+}
+.person9:hover .bluebg{
+    background: linear-gradient(to top,
+                white 0%,
+                white 0.5%,
+                #5183B8 0.5%,
+                #5183B8 70.5%,
+                white 70.5%,
+                white 100%);
+}
+
 .person3 .coloured{
     display: none;
 }
