@@ -377,11 +377,12 @@ hr{
 section {
     z-index: 2;
     display: inline-block;
-    width: 60vw;
+    width: 98vw;
     background-color: #8caaca ;
     margin-top: 100px;
     height: calc(100vh - 300px);
     position: sticky;
+    text-align: center;
 }
 .footer-twocolumns{
     display: flex;
