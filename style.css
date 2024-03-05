@@ -1,3 +1,7 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
 .navbar{
     padding:30px;
     display: flex;
@@ -160,7 +164,7 @@ hr{
     display:none
 }
 .person2:hover .coloured{
-    display: block;
+    display: block; 
 }
 .person2:hover .bluebg{
     background: linear-gradient(to top,
@@ -170,7 +174,7 @@ hr{
                 #5183B8 76%,
                 white 76%,
                 white 100%);
-}
+}   
 .person3:hover .bluebg{
     background: linear-gradient(to top,
                 white 0%,
@@ -398,7 +402,23 @@ section {
                 white 72.5%,
                 white 100%);
 }
+@media(max-width: 970px){
+    .noblebg {
+            width: 100vw;
+        }
+    
+    .noblebw {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 
+    .noblecoloured {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
 @media (max-width: 1400px) {
     section{
         display: none;
@@ -417,6 +437,55 @@ section {
     }
 }
 @media (max-width: 880px) {
+    .persons{
+        flex-direction: column;
+    }
+    .gauribg{
+        width: 100vw;
+    }
+    .gauribw{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .gauricoloured{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .samratbg{
+        width: 100vw;
+    }
+    .samratbw{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .samratcoloured{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .anshikabg{
+        width: 100vw;
+    }
+    .anshikabw{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .anshikacoloured{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    @media(max-width:600px){
+        .logo{
+            margin-left: -50px;
+            height: 40px;
+        }
+    }
     
     .text-content-2{
         width: 500px;
@@ -441,6 +510,23 @@ section {
         justify-content: center;
         align-items: center;   
         row-gap: 40px;
+    }
+    @media(max-width:480px) {
+        .footerr {
+            margin-left: 50px;
+        }
+        .text-content{
+            margin-left:-50px;
+        }
+        .text-content-2{
+            margin-left: 50px;
+        }
+        .text-heading{
+            margin-left: -50px;
+        }
+        .page{
+            margin-left: -50px;
+        }
     }
        
     /* .bw ,.coloured{
@@ -478,8 +564,4 @@ section {
         height: 250px;
     }
 }
-@media(max-wdith:650px){
-    .bluebg{
-        display:block;
-    }
-}
+
